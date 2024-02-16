@@ -44,10 +44,10 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy
-        playing video games, watching tv shows, and spending time with my
-        family. I love to learn about new technologies and new skills especially
-        <span className="font-medium"> workflow </span> skills.
+        <span className="">When I&apos;m not coding</span>, I enjoy playing
+        video games, watching tv shows, and spending time with my family. I love
+        to learn about new technologies and new skills especially
+        <span className="font-medium"> workflow and productivity</span> skills.
       </p>
     </motion.section>
   );

@@ -2,9 +2,9 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import firstProjectImage from '@/public/JerseyDuel.png';
+import secondProjectImage from '@/public/brainiac.png';
+import thirdProjectImage from '@/public/dashboard.png';
 
 export const links = [
   {
@@ -38,15 +38,15 @@ export const experiencesData = [
     title: 'Graduated Computer Programmer Analyst',
     location: 'Peterborough, ON',
     description:
-      'I graduated as a Computer Programmer Analyst after completing a three program.',
+      'I graduated as a Computer Programmer Analyst. Studying C/C++, PHP, Perl, Javascript, HTML, CSS and other languages. ',
     icon: React.createElement(LuGraduationCap),
-    date: '2000-2003',
+    date: '2000-2004',
   },
   {
     title: 'Technical Support Representative',
     location: 'Peterborough, ON',
     description:
-      'I worked as a support representative support Apple Products, such as computers, iPods, routers, etc.',
+      'I worked as a support representative support Apple Products, such as computers, iPods, laptops, desktops, etc.',
     icon: React.createElement(CgWorkAlt),
     date: '2005',
   },
@@ -70,33 +70,59 @@ export const experiencesData = [
     title: 'Senior Quality Evaluator',
     location: 'Peterborough, ON',
     description:
-      'I now worked with senior advisors who were the final authority, which required know of almost all products within the Apple Environment. I helped create tools and processes to further enhance both advisor and quality workflows.',
+      'I worked with senior advisors, requiring know of almost all products within the Apple Environment. I helped create tools and processes to further enhance both advisor and quality workflows.',
     icon: React.createElement(FaReact),
     date: '2016 - 2023',
+  },
+  {
+    title: 'Web Development Projects',
+    location: 'Peterborough, ON',
+    description:
+      'Since leaving Concentrix I have worked daily on improving my existing Web Development skills and learning new technologies. Check out my projects above.',
+    icon: React.createElement(FaReact),
+    date: '2023 - 2024',
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'Jersey Duel',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg,
+      'Allows users to upload any two jerseys then have friends vote on their favorite! SaaS upgrades using Stripe.',
+    tags: ['React', 'Next.js', 'Tailwind', 'Convex', 'Stripe', 'Clerk'],
+    imageUrl: firstProjectImage,
+    link: 'https://jerseyduel.timconway.dev/',
   },
   {
-    title: 'rmtDev',
+    title: 'Brainiac',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg,
+      'AI Enhanced notes. Create AI assist notes, then have it create a thumbnail to help quickly locate it!',
+    tags: [
+      'ChatGPT',
+      'React',
+      'Next.Js',
+      'Tailwind',
+      'Firebase',
+      'Clerk',
+      'Drizzle ORM',
+    ],
+    imageUrl: secondProjectImage,
+    link: 'https://brainiac.timconway.dev/',
   },
   {
-    title: 'Word Analytics',
+    title: 'Dashboard',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: wordanalyticsImg,
+      'An Admin Dashboard CRUD app that allows you to create, read, update and delete both users and products in a dashboard.',
+    tags: [
+      'React',
+      'Next.js',
+      'Server Components',
+      'Tailwind',
+      'NextAuth',
+      'MongoDB',
+    ],
+    imageUrl: thirdProjectImage,
+    link: 'https://dashboard.timconway.dev/',
   },
 ] as const;
 
@@ -107,11 +133,11 @@ export const skillsData = [
   'TypeScript',
   'React',
   'Next.js',
-  'Node.js',
   'Git',
   'Tailwind',
   'Prisma',
   'MongoDB',
-  'Redux',
-  'Framer Motion',
+  'Convex',
+  'C#',
+  'Unity',
 ] as const;
