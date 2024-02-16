@@ -2,7 +2,7 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import firstProjectImage from '@/public/JerseyDuel.png';
+import firstProjectImage from '@/public/jerseyduel.png';
 import secondProjectImage from '@/public/brainiac.png';
 import thirdProjectImage from '@/public/dashboard.png';
 
