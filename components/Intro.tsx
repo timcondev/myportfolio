@@ -29,7 +29,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
+              src="/testcopy.jpg"
               alt="TimCo portrait"
               width="192"
               height="192"
@@ -59,12 +59,12 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold  ">Hello, I&apos;m Tim.</span> I&apos;m a{' '}
-        <span className="font-bold">multi discipline developer</span> looking
-        for{' '}
-        <span className="font-bold">Web Development or Game Development </span>{' '}
+        <span className="font-bold">software developer</span> looking for{' '}
+        <span className="font-bold">Web, App or Game Development </span>{' '}
         opportunities. I enjoy building{' '}
-        <span className="italic">sites, apps and games</span>. My main focuses
-        are <span className="underline">React (Next.js) and Unity (C#) </span>.
+        <span className="italic">sites, apps and games</span>. My current main
+        focuses are{' '}
+        <span className="underline">React (Next.js) and Unity (C#) </span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -98,7 +98,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full
           hover:scale-[1.15] active:scale-105 outline-none
           transition cursor-pointer borderBlack hover:text-gray-950  dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/tim-conway-1a4886a4/"
           target="_blank"
         >
           <BsLinkedin />
@@ -107,7 +107,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full 
           text-[1.25rem] hover:scale-[1.15] active:scale-105 outline-none
           transition cursor-pointer borderBlack hover:text-gray-950  dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/timcondev/"
           target="_blank"
         >
           <FaGithubSquare />
