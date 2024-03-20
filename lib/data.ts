@@ -46,7 +46,7 @@ export const experiencesData = [
     title: 'Technical Support Representative',
     location: 'Peterborough, ON',
     description:
-      'I worked as a support representative support Apple Products, such as computers, iPods, laptops, desktops, etc.',
+      'I worked as a support representative support Apple Products such as computers, iPods, laptops, desktops, etc.',
     icon: React.createElement(CgWorkAlt),
     date: '2005',
   },
@@ -55,27 +55,27 @@ export const experiencesData = [
     location: 'Peterborough, ON',
     description:
       'I developed and presented coaching plans for Technical Support Advisors based on metric standards provided by the client.',
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: '2006 - 2010',
   },
   {
     title: 'Quality Evaluator',
     location: 'Peterborough, ON',
     description:
-      'I listened to, and evaluated advisors, in real time. I created SMART goals to coach advisors on both technical and soft skills. Including the MacOs, iOS and Windows environments.',
-    icon: React.createElement(FaReact),
+      'I created SMART goals to coach advisors on both technical and soft skills. Including the MacOs, iOS and Windows environments.',
+    icon: React.createElement(CgWorkAlt),
     date: '2010 - 2016',
   },
   {
     title: 'Senior Quality Evaluator',
     location: 'Peterborough, ON',
     description:
-      'I worked with senior advisors, requiring know of almost all products within the Apple Environment. I helped create tools and processes to further enhance both advisor and quality workflows.',
-    icon: React.createElement(FaReact),
+      'I worked with senior advisors, requiring knowledge of all products within the Apple Environment. I helped create tools and processes to further enhance both advisor and quality workflows.',
+    icon: React.createElement(CgWorkAlt),
     date: '2016 - 2023',
   },
   {
-    title: 'Web Development Projects',
+    title: 'Web Development',
     location: 'Peterborough, ON',
     description:
       'Since leaving Concentrix I have worked daily on improving my existing Web Development skills and learning new technologies. Check out my projects above.',

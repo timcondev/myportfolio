@@ -58,13 +58,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold  ">Hello, I&apos;m Tim.</span> I&apos;m a{' '}
+        <span className="font-bold  ">Hello, I&apos;m Tim!</span> I&apos;m a{' '}
         <span className="font-bold">software developer</span> looking for{' '}
         <span className="font-bold">Web, App or Game Development </span>{' '}
         opportunities. I enjoy building{' '}
-        <span className="italic">sites, apps and games</span>. My current main
+        <span className="italic">sites, apps and games</span>. My current
         focuses are{' '}
-        <span className="underline">React (Next.js) and Unity (C#) </span>.
+        <span className="underline">React (Next.js) and Unity (C#)</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

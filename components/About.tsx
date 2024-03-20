@@ -34,20 +34,19 @@ export default function About() {
           {' '}
           React, Next.js, Node.js, and MongoDB.{' '}
         </span>
-        Using technologies such as ORMS (Drizzle/Prisma), auth solutions
-        (nextAuth, Clerk), Stripe and TypeScript. As well as alternatives like
-        Convex. Having spent the last 17 years learn new technologies to be able
-        to coach others on them, I am always looking to learning new
-        technologies/skills. I am currently looking for a{' '}
+        I&apos;ve used many different technologies during my journey, such as
+        ORMS (Drizzle/Prisma), auth solutions (nextAuth, Clerk), Stripe,
+        TypeScript and many others. Having spent the last 17 years learning new
+        technologies for myself, and to coach others, I take pride in learning
+        new technologies/skills. I am currently looking for a{' '}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
 
       <p>
-        <span className="">When I&apos;m not coding</span>, I enjoy playing
-        video games, watching tv shows, and spending time with my family. I love
-        to learn about new technologies and new skills especially
-        <span className="font-medium"> workflow and productivity</span> skills.
+        <span className="">When not coding</span>, I enjoy playing video games,
+        reading, and spending time with my family. A good day usually includes a
+        RPG, a book by Brandon Sanderson or family board game night.
       </p>
     </motion.section>
   );
