@@ -5,6 +5,7 @@ import { LuGraduationCap } from 'react-icons/lu';
 import firstProjectImage from '@/public/jerseyduel.png';
 import secondProjectImage from '@/public/brainiac.png';
 import thirdProjectImage from '@/public/dashboard.png';
+import gitImage from '@/public/myGit.png';
 
 export const links = [
   {
@@ -46,7 +47,7 @@ export const experiencesData = [
     title: 'Technical Support Representative',
     location: 'Peterborough, ON',
     description:
-      'I worked as a support representative support Apple Products such as computers, iPods, laptops, desktops, etc.',
+      'Worked as a support representative support Apple. Support product such as computers, iPods, laptops, desktops, etc.',
     icon: React.createElement(CgWorkAlt),
     date: '2005',
   },
@@ -54,7 +55,7 @@ export const experiencesData = [
     title: 'Performance Coach',
     location: 'Peterborough, ON',
     description:
-      'I developed and presented coaching plans for Technical Support Advisors based on metric standards provided by the client.',
+      'Developed and presented coaching plans for Technical Support Advisors based on KPI/metric standards provided by the client.',
     icon: React.createElement(CgWorkAlt),
     date: '2006 - 2010',
   },
@@ -62,7 +63,7 @@ export const experiencesData = [
     title: 'Quality Evaluator',
     location: 'Peterborough, ON',
     description:
-      'I created SMART goals to coach advisors on both technical and soft skills. Including the MacOs, iOS and Windows environments.',
+      'Created SMART goals to coach advisors on both technical and soft skills. Including the MacOs, iOS and Windows environments.',
     icon: React.createElement(CgWorkAlt),
     date: '2010 - 2016',
   },
@@ -70,15 +71,15 @@ export const experiencesData = [
     title: 'Senior Quality Evaluator',
     location: 'Peterborough, ON',
     description:
-      'I worked with senior advisors, requiring knowledge of all products within the Apple Environment. I helped create tools and processes to further enhance both advisor and quality workflows.',
+      'Trained and coached senior advisors, requiring knowledge of all products within the Apple Environment. Create tools and processes to further enhance both advisor and quality workflows.',
     icon: React.createElement(CgWorkAlt),
     date: '2016 - 2023',
   },
   {
-    title: 'Web Development',
+    title: 'Freelance Web Development',
     location: 'Peterborough, ON',
     description:
-      'Since leaving Concentrix I have worked daily on improving my existing Web Development skills and learning new technologies. Check out my projects above.',
+      'Since leaving Concentrix I have worked consistently on improving my existing Web Development skills and learning new technologies. Working on various Web projects.',
     icon: React.createElement(FaReact),
     date: '2023 - 2024',
   },
@@ -123,6 +124,13 @@ export const projectsData = [
     ],
     imageUrl: thirdProjectImage,
     link: 'https://dashboard.timconway.dev/',
+  },
+  {
+    title: 'My Git',
+    description: 'Check out my Git for more projects.',
+    tags: ['React', 'Next.js', 'Tailwind'],
+    imageUrl: gitImage,
+    link: 'https://github.com/timcondev',
   },
 ] as const;
 

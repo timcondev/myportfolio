@@ -29,13 +29,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/testcopy.jpg"
+              src="/profile.jpg"
               alt="TimCo portrait"
-              width="192"
-              height="192"
+              width="256"
+              height="256"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl 2xl:h-48 2xl:w-48"
+              className="h-32 w-32 rounded-full border-[0.35rem] border-white object-cover shadow-xl 2xl:h-64 2xl:w-64"
             />
           </motion.div>
           <motion.span
