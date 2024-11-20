@@ -41,7 +41,7 @@ export const experiencesData = [
     description:
       "I graduated as a Computer Programmer Analyst. Studying C/C++, PHP, Perl, Javascript, HTML, CSS and other languages. ",
     icon: React.createElement(LuGraduationCap),
-    date: "2000-2004",
+    date: "2000-2003",
   },
   {
     title: "Technical Support Representative",
