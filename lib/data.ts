@@ -36,7 +36,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Computer Programmer Analyst",
+    title: "Fleming College - Computer Programmer Analyst",
     location: "Peterborough, ON",
     description:
       "I graduated as a Computer Programmer Analyst. Studying C/C++, PHP, Perl, Javascript, HTML, CSS and other languages. ",
